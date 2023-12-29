@@ -1,12 +1,12 @@
 ## Password Generator
 
-In this project user has to create a password generator, which allows the users to generate random passwords.
+In this project, the user has to create a password generator, which allows the users to generate random passwords.
 
 ## Features
 
-- User can generate random password.
-- User can copy the password to clipboard.
-- User can select the password length, character which needs to be included in the password.
+- The user can generate a random password.
+- The user can copy the password to the clipboard.
+- The user can select the password length and character that must be included in the password.
 - Password length validation.
 
 ## Tech Used
@@ -16,5 +16,4 @@ In this project user has to create a password generator, which allows the users 
 - JavaScript
 
 ## Deployed Link
-
-![expected output](/javascript/01%20Password%20Generator/output/passwordGeneratorOutput.png)
+https://profound-entremet-5e6303.netlify.app/
