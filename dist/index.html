@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-950 text-white flex justify-center ">
+    <div class="border-white border-2 w-[500px] justify-center mt-[80px] pt-8 pb-8 pl-20 pr-20 ">
+        <h1 class="text-center pb-4 text-3xl">Password Generator</h1>
+        <input type="text" id="inp" class="w-[100%] p-1 text-black mb-4" placeholder="click on Generate button">
+        <div id="showmsg" class="text-center pb-2 font-bold"></div>
+        <div class="text-center mb-4">
+            <button class="bg-violet-500 pt-2 pb-2 pl-4 pr-4 rounded-xl" id="gen">Generate</button>
+            <button class="bg-violet-500 pt-2 pb-2 pl-4 pr-4 rounded-xl mx-2" id="clip" >Copy To Clipboard</button>
+        </div>
+        <div class="mb-4 text-center text-red-600" id="warnmsg"></div>
+        <div class="flex justify-between w-[100%] mb-1">
+            <label for="Passlen " class="font-bold">Password Length</label>
+            <input type="text" id="Passlen" class="w-[70px] font-bold bg-blue-800 ml-[135px] text-white pl-2" required><br>
+        </div>
+        
+<div class="flex justify-between mb-1">
+    <label for="up">Include Uppercase letters</label>
+    <input type="checkbox" class="ml-[135px]" id="upper"><br>
+</div>
+     
+<div class="flex justify-between mb-1">
+        <label for="low">Include Lowercase letters</label>
+        <input type="checkbox" class="ml-[135px]" id="lower"><br>
+    </div>
+    <div class="flex justify-between mb-1">
+        <label for="low">Include Numbers</label>
+        <input type="checkbox" class="ml-[190px]" id="num"><br>
+</div>
+<div class="flex justify-between mb-1">
+        <label for="low">Include Symbols</label>
+        <input type="checkbox" class="ml-[195px]" id="symb"><br>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
